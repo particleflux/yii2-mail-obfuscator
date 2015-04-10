@@ -20,7 +20,7 @@ class MailObfuscator extends Widget
     /** @var string email to obfuscate */
     public $email;
 
-    /** @var text to display as link, defaults to email */
+    /** @var string text to display as link, defaults to email */
     public $text;
 
     /**
@@ -48,7 +48,7 @@ function d(s) {
         while(l>=8){((a=(b>>>(l-=8))&0xff)||(x<(L-2)))&&(r+=w(a));}
     }
     return r;
-};
+}
 
 var a = document.getElementById('{$this->id}');
 var m = d('{$encodedMail}');
