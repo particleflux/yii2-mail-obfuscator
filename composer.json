@@ -1,0 +1,26 @@
+{
+  "name": "particleflux/yii2-mail-obfuscator",
+  "description": "E-Mail obfuscator widget for Yii 2",
+  "keywords": ["yii", "obfuscator", "email"],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Stefan Linke",
+      "email": "mail@particleflux.de"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/particleflux/yii2-mail-obfuscator/issues",
+    "source": "https://github.com/particleflux/yii2-mail-obfuscator"
+  },
+  "require": {
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "particleflux\\MailObfuscator\\": ""
+    }
+  }
+}
+
